@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>YOUR_SITE | Portfolio Template</title>
+            <meta name="description" content="YOUR_SITE description">
+            <meta name="author" content="YOUR_NAME">
+                            
+            <!-- Embed page for social media posts -->
+            <meta property="og:description" content="YOUR_SITE description">
+            <meta property="og:title" content="YOUR_SITE | Portfolio Template">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="http://www.YOUR_SITE.com">
+            <meta property="og:image" content="http://www.YOUR_SITE.com/img/logo.png">
+            <meta property=​"og:​site_name" content=​"YOUR_SITE.com">
+                                                    
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@mobypixel">
+            <meta name="twitter:creator" content="@mobypixel">
+            <meta name="twitter:title" content="YOUR_SITE | Portfolio Template">
+            <meta name="twitter:description" content="YOUR_SITE description">
+            <meta name="twitter:image" content="http://www.YOUR_SITE.com/img/logo.png">
+                                                                            
+            <!-- Favicon -->
+            <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+                                                                                
+            <!-- Page Style -->
+            <link rel="stylesheet" type="text/css" href="style.css?version=1">
+    </head>
+    
+    <body>
+        
+        <!-- Navigation Bar -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="rightVerticalLine">YOURSITE.COM</a>
+            <a href="image-example.html">Image Page Example</a>
+            <a href="text-example.html">Text Page Example</a>
+            <a href="javascript:void(0);" class="icon leftVerticalLine" onclick="myFunction()"><img src="img/menu.png"></img>
+            </a>
+        </div>
+        
+        <!-- Header with Full-Size Image -->
+        <div class="hero-image" style="background-image: url('img/header-bg.jpg');">
+            <div class="coverDivFull">
+                <img class="coverArtFull" src="img/image-logo.png" alt="Cover Image"></img>
+            </div>
+        </div>
+        
+        <!-- Description Section -->
+        <div class="descriptionDiv">
+            
+            <!-- Section -->
+            <h1>Title</h1>
+            <p>Body Text</p>
+            
+        </div>
+        
+        <!-- Share Your Socials -->
+        <div class="textBubbleDiv">
+            <p class="light">Follow @YourName :
+            <a href="https://www.twitter.com/YOUR_NAME" target="_blank"><img class="socialLink" src="img/twitter.png" alt="Twitter"></img></a>
+            <a href="https://www.facebook.com/YOUR_NAME" target="_blank"><img class="socialLink" src="img/facebook.png" alt="Facebook"></img></a>
+            <a href="https://www.youtube.com/YOUR_NAME" target="_blank"><img class="socialLink2" src="img/youtube.png" alt="YouTube"></img></a>
+            </p>
+        </div>
+        
+        <div class="contact">
+            <div class="contact-body">
+                <!-- Section -->
+                <h1>Contact</h1>
+                <p>Tap the email address to send a message. We look forward to hearing from you.</p>
+                <p><strong><a href="mailto:hello@yoursite.com">hello@yoursite.com</a></strong></p>
+            </div>
+        </div>
+        
+        <!-- Navigation Script -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>

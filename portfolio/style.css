@@ -1,0 +1,503 @@
+a {
+    color: #48D;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #48D;
+    text-decoration: underline;
+}
+
+h3 a:hover {
+    color: #48D;
+    text-decoration: underline;
+}
+
+body {
+    height: 100%;
+    color: #252525;
+    background-color: #eee;
+    margin: 0px;
+    line-height: 30px;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 175px 175px 175px 175px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-transform: translateZ(0);
+}
+
+.coverArt {
+    color: white;
+    text-align: center;
+    max-height: 350px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.coverArtFull {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.coverDiv {
+    height: 600px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.coverDivFull {
+    height: 600px;
+    position: relative;
+}
+
+.descriptionDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.footer {
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom:25px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.light {
+    font-size: 1em;
+    text-align: center;
+}
+
+p {
+    color: rgb(36,36,38);
+    font-size: 1.125em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socialLink {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.socialLink2 {
+    height: 25px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.subtle {
+    text-align: center;
+    color: #838383;
+    font-size: 1em;
+    background-color: rgb(195,195,200);
+}
+
+.textBubbleDiv {
+    background-color: rgb(225,225,230);
+    text-align: center;
+    max-width:  280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 30px 30px 30px 30px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.grid {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    max-width: 1600px;
+}
+
+.card {
+    text-decoration: none;
+    position: relative;
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+}
+
+.item {
+    text-decoration: none;
+    position: relative;
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+}
+
+.content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+}
+
+.body-text {
+    max-width: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle {
+    color: #999999;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: auto;
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: auto;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.description {
+    color: #999;
+    display: block;
+    line-height: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: auto;
+    font-size: 1.25em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    background-color: rgb(225,225,230);
+    padding: 25px;
+    margin: auto;
+}
+
+.contact-body {
+    max-width: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact h1 {
+    font-size: 3em;
+    max-width: 1600px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        -ms-flex: 33.33333%; /* IE10 */
+        flex: 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+    .item {
+        -ms-flex: 33.33333%; /* IE10 */
+        flex: 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+    .item {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    .item {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+.card img {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-transform: translateZ(0);
+}
+
+.item img {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.img-full {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.card-body {
+    background-color: white;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: auto;
+    border-radius: 0px 0px 30px 30px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-transform: translateZ(0);
+}
+
+.hero-image {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(50,50,50);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(142,142,147);;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav img {
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.topnav a:not(:first-child) {
+    display: none;
+}
+
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+
+.topnav.responsive {
+    position: relative;
+    
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.rightVerticalLine {
+    border-right: thin solid #555555;
+}
+
+.leftVerticalLine {
+    border-left: thin solid #555555;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background-color: #050505;
+    }
+    
+    p {
+        color: #eee;
+    }
+    
+    .subtitle {
+        color: rgb(174,174,178);
+    }
+    
+    .subtle {
+        color: #777;
+        background-color: rgb(36,36,38);
+    }
+    
+    .title {
+        color: white;
+    }
+    .description {
+        color: rgb(174,174,178);
+    }
+    
+    .card-body {
+        background-color: rgb(36,36,38);
+    }
+    
+    .contact {
+        background-color: rgb(50,50,50);
+    }
+    
+    .textBubbleDiv {
+        background-color: rgb(50,50,50);
+    }
+    
+    .topnav {
+        background-color: rgb(50,50,50);
+    }
+}
