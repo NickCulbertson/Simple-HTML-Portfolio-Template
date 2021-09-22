@@ -7,6 +7,7 @@ Coming Soon!
 <!-- (Click the image to watch Portfolio Template | Introduction & Tutorial)
 
 [![Now Page Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/RlTcHFIg8gU/0.jpg)](https://www.youtube.com/watch?v=RlTcHFIg8gU "Now Page Template | Introduction & Tutorial | Open Source HTML Page")
+-->
 
 ## Features
 
@@ -20,6 +21,7 @@ Coming Soon!
 
 • Fully Customizable & Open Source
 
+<!-- 
 ## Demos
 
 My Now Page: [http://www.mobypixel.com/now](http://www.mobypixel.com/now)
