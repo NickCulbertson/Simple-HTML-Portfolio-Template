@@ -1,1 +1,1 @@
-# Simple-HTML-Portfolio-Template
+# Simple HTML Portfolio Template
