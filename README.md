@@ -6,7 +6,7 @@ Coming Soon!
 
 <!-- (Click the image to watch Portfolio Template | Introduction & Tutorial)
 
-[![Now Page Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/RlTcHFIg8gU/0.jpg)](https://www.youtube.com/watch?v=RlTcHFIg8gU "Now Page Template | Introduction & Tutorial | Open Source HTML Page")
+[![Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/RlTcHFIg8gU/0.jpg)](https://www.youtube.com/watch?v=RlTcHFIg8gU "Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page")
 -->
 
 ## Features
@@ -24,29 +24,29 @@ Coming Soon!
 <!-- 
 ## Demos
 
-My Now Page: [http://www.mobypixel.com/now](http://www.mobypixel.com/now)
+My Portfolio Page: [http://www.mobypixel.com](http://www.mobypixel.com)
 
 ![My Now Page](https://github.com/NickCulbertson/VidTest/blob/master/now1.png)
 
-Now Page Template:
+Portfolio Template:
 
 ![Now Page Template Light](https://github.com/NickCulbertson/VidTest/blob/master/now2.png)
 
-Now Page Template (Dark Mode):
+Portfolio Template (Dark Mode):
 
 ![Now Page Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/now3.png)
 
 ## Implementation
 
-1. Download the "now" folder. Here you will find now.html, now.css, and an image folder.
+1. Download the "portfolio" folder. Here you will find index.html, image-example.html, text-example.html, style.css, and an image and video folder.
 
-now.html - The page people will see when they visit `http://www.YOUR_WEBSITE_NAME.com/now`
+index.html - The page people will see when they visit `http://www.YOUR_WEBSITE_NAME.com`
 
-now.css - The styles for this page.
+style.css - The styles for the site.
 
 img - This is where all the Cover art for the page and social badges are stored.
 
-2. Open the now.html in a code editor and update it with all your information.
+2. Open the index.html in a code editor and update it with all your information.
 
 3. Adding your cover artwork by replacing the "cover.png" file in the img folder.
 
@@ -92,20 +92,20 @@ now.html
 
 ...
 
-<h2>Section 1 Title</h2>
+<h1>Section 1 Title</h1>
 <p>A brief description.</p>
     
 
-<h2>Section 2 Title</h2>
+<h1>Section 2 Title</h1>
 <p>A brief description.</p>
 ...
 ```
 
-## About Simple HTML Portfolio Template
+## About This Project
 
-I was immediately drawn to the idea of creating a Now Page. At first, I just made another page off of my site but it was suffering from severe code bloat. So I made a stripped down version with only what was needed. I'm making this template Open Source because I want to empower creatives to support themselves. I hope it helps you to build a deeper connection with your followers! 
-
-If you have any questions, suggestions, or feedback please send them my way. This is as much for me as it is for you. If you use it, send me a link! I'd love to see what you're up to now. 
+Simple HTML Portfolio Template is an Open Source project to create an easy site for your work. No fluff or unnecessary code bloat. It's minimal and built to be easily customized and maintained. Watch the tutorial video for a quick explanation on what does what.
+            
+I'm making this template Open Source because I want to empower creatives to support themselves. I hope it helps make your first impression for your followers most triumphant! If you have any questions, suggestions, or feedback please send them my way. This is as much for me as it is for you. If you use it, send me a link! I'd love to see your work.
 
 Enjoy!
 
