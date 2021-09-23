@@ -109,7 +109,7 @@ index.html
 <p>A brief description.</p>
 ...
 ```
-
+-->
 ## About This Project
 
 Simple HTML Portfolio Template is an Open Source project to create an easy site for your work. No fluff or unnecessary code bloat. It's minimal and built to be easily customized and maintained. Watch the tutorial video for a quick explanation on what does what.
@@ -127,4 +127,4 @@ Nick Culbertson [@MobyPixel](https://twitter.com/MobyPixel)
 
 Share the project and/or drop some change in the tip jar. If I've saved you some time in development, please compensate my efforts so that I can keep making cool stuff. Donations are not required, but greatly appreciated! :D
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKHYVRMC53W7C) -->
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKHYVRMC53W7C)
