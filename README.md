@@ -43,22 +43,22 @@ Portfolio Template (Dark Mode):
 
 index.html - The page people will see when they visit `http://www.YOUR_WEBSITE_NAME.com`
 
+image-example.html & text-example.html - Starting point for pages off of the index page.
+
 style.css - The styles for the site.
 
-img - This is where all the Cover art for the page and social badges are stored.
+img - This is where all the art is stored.
 
 2. Open the index.html in a code editor and update it with all your information.
 
-3. Adding your cover artwork by replacing the "cover.png" file in the img folder.
+3. Add the files to your site's root directory. Now your page is available at
+`http://www.YOUR_WEBSITE_NAME.com`
 
-4. Add the entire files to your site's root directory. Now your page is available at
-`http://www.YOUR_WEBSITE_NAME.com/now`
-
-5. Share the link and do the happy dance!
+4. Share the link and do the happy dance!
 
 ## Optional Features
 
-By default, the cover image will be square. If you want a rectangular cover image, you can change height and width values of `.coverArt` and `.coverDiv` (height of container) in the `now.css` file:
+By default, the cover image will be square. If you want a rectangular cover image, you can change height and width values of `.coverArt` and `.coverDiv` (height of container) in the `style.css` file:
 ```
 now.css
 
