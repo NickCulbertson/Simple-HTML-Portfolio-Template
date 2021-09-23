@@ -26,17 +26,17 @@ Coming Soon!
 
 My Portfolio Page: [http://www.mobypixel.com](http://www.mobypixel.com)
 
-<!-- 
-![My Now Page](https://github.com/NickCulbertson/VidTest/blob/master/now1.png)
+
+![My Portfolio Page](https://github.com/NickCulbertson/VidTest/blob/master/portfolio1.png)
 
 Portfolio Template:
 
-![Now Page Template Light](https://github.com/NickCulbertson/VidTest/blob/master/now2.png)
+![Portfolio Template Light](https://github.com/NickCulbertson/VidTest/blob/master/portfolio2.png)
 
 Portfolio Template (Dark Mode):
 
-![Now Page Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/now3.png)
-
+![Portfolio Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/portfolio3.png)
+<!-- 
 ## Implementation
 
 1. Download the "portfolio" folder. Here you will find index.html, image-example.html, text-example.html, style.css, and an image and video folder.
