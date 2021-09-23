@@ -36,6 +36,14 @@ Portfolio Template:
 Portfolio Template (Dark Mode):
 
 ![Portfolio Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/portfolio3.png)
+
+Portfolio Card Grid:
+
+![Portfolio Card Grid](https://github.com/NickCulbertson/VidTest/blob/master/portfolio4.png)
+
+Portfolio Image Grid:
+
+![Portfolio Image Grid](https://github.com/NickCulbertson/VidTest/blob/master/portfolio5.png)
 <!-- 
 ## Implementation
 
