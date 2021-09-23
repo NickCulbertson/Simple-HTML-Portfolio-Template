@@ -21,11 +21,12 @@ Coming Soon!
 
 • Fully Customizable & Open Source
 
-<!-- 
+
 ## Demos
 
 My Portfolio Page: [http://www.mobypixel.com](http://www.mobypixel.com)
 
+<!-- 
 ![My Now Page](https://github.com/NickCulbertson/VidTest/blob/master/now1.png)
 
 Portfolio Template:
