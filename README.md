@@ -44,7 +44,7 @@ Portfolio Card Grid:
 Portfolio Image Grid:
 
 ![Portfolio Image Grid](https://github.com/NickCulbertson/VidTest/blob/master/portfolio5.png)
-<!-- 
+
 ## Implementation
 
 1. Download the "portfolio" folder. Here you will find index.html, image-example.html, text-example.html, style.css, and an image and video folder.
@@ -63,12 +63,12 @@ img - This is where all the art is stored.
 `http://www.YOUR_WEBSITE_NAME.com`
 
 4. Share the link and do the happy dance!
-
+<!-- 
 ## Optional Features
 
 By default, the cover image will be square. If you want a rectangular cover image, you can change height and width values of `.coverArt` and `.coverDiv` (height of container) in the `style.css` file:
 ```
-now.css
+style.css
 
 .coverArt {
     ...
@@ -85,7 +85,7 @@ now.css
 Delete this line to remove the image corner rounding:
 
 ```
-now.css
+style.css
 
 .coverArt {
     ...
@@ -97,7 +97,7 @@ now.css
 Make multiple sections like this:
 
 ```
-now.html
+index.html
 
 ...
 
