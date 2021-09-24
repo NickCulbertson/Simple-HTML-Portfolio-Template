@@ -69,6 +69,7 @@ Add your projects to the card grid:
 index.html
 
 ...
+
 <!-- Portfolio Grid -->
 <div class="grid">
                 
@@ -103,6 +104,7 @@ Add your images to a grid:
 index.html
 
 ...
+
 <!-- Image Grid -->
 <div class="grid">
                 
@@ -135,7 +137,7 @@ index.html
 
 ```
 
-Full Size Image:
+Full-Size Image:
 
 ```
 index.html
