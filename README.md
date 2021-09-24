@@ -24,7 +24,6 @@ An Open Source HTML Template to create a Portfolio site for your work.
 
 My Portfolio Page: [http://www.mobypixel.com](http://www.mobypixel.com)
 
-
 ![My Portfolio Page](https://github.com/NickCulbertson/VidTest/blob/master/portfolio1.png)
 
 Portfolio Template:
