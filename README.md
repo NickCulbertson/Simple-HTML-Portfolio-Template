@@ -61,35 +61,90 @@ img - This is where all the art is stored.
 `http://www.YOUR_WEBSITE_NAME.com`
 
 4. Share the link and do the happy dance!
-<!-- 
+
 ## Optional Features
 
-By default, the cover image will be square. If you want a rectangular cover image, you can change height and width values of `.coverArt` and `.coverDiv` (height of container) in the `style.css` file:
+Add your projects to the card grid:
 ```
-style.css
+index.html
 
-.coverArt {
-    ...
-    max-height:  320px;
-    max-width:   320px;
-    ...
-}
-
-.coverDiv {
-    height: 320px;
-}
+...
+<!-- Portfolio Grid -->
+<div class="grid">
+                
+    <!-- Portfolio Item -->
+    <a href="image-example.html" class="card">
+        <div class="content">
+            <img src="img/card1.jpg" alt="Card Image"></img>
+            <div class="card-body">
+                <div class="subtitle">CATEGORY</div>
+                <div class="title">Card Title</div>
+                <div class="description">Short Description</div>
+            </div>
+        </div>
+    </a>
+                
+    <!-- Portfolio Item -->
+    <a href="image-example.html" class="card">
+        <div class="content">
+            <img src="img/card2.jpg" alt="Card Image"></img>
+            <div class="card-body">
+                <div class="subtitle">CATEGORY</div>
+                <div class="title">Card Title</div>
+                <div class="description">Short Description</div>
+            </div>
+        </div>
+    </a>
+</div>
 ```
 
-Delete this line to remove the image corner rounding:
+Add your images to a grid:
+```
+index.html
+
+...
+<!-- Image Grid -->
+<div class="grid">
+                
+    <!-- Image Item -->
+    <div class="item">
+        <div class="content">
+            <img  src="img/image1.jpg" alt="Image"></img>
+        </div>
+    </div>
+                
+    <!-- Image Item -->
+        <div class="item">
+            <div class="content">
+                <img  src="img/image2.jpg" alt="Image"></img>
+            </div>
+        </div>
+    </div>
+</div>
 
 ```
-style.css
 
-.coverArt {
-    ...
-    border-radius: 160px 160px 160px 160px;
-    ...
-}
+Add corner rounding:
+
+```
+index.html
+
+...
+
+<div class="rounded"></div>
+
+```
+
+Full Size Image:
+
+```
+index.html
+
+...
+
+<!-- Full-Size Image -->
+<img class="img-full" src="img/logo.png" alt="Image"></img>
+
 ```
 
 Make multiple sections like this:
@@ -105,9 +160,8 @@ index.html
 
 <h1>Section 2 Title</h1>
 <p>A brief description.</p>
-...
 ```
--->
+
 ## About This Project
 
 Simple HTML Portfolio Template is an Open Source project to create an easy site for your work. No fluff or unnecessary code bloat. It's minimal and built to be easily customized and maintained. Watch the tutorial video for a quick explanation on what does what.
