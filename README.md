@@ -1,6 +1,6 @@
 # Simple HTML Portfolio Template
 
-An Open Source HTML Template to create a Portfolio site for your work.
+An Open Source HTML Template to create a Portfolio site for your work. Download the project, customize it however you like, and share your work with the world.
 
 <!-- (Click the image to watch Portfolio Template | Introduction & Tutorial)
 
