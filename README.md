@@ -2,10 +2,10 @@
 
 An Open Source HTML Template to create a Portfolio site for your work. Download the project, customize it however you like, and share your work with the world.
 
-<!-- (Click the image to watch Portfolio Template | Introduction & Tutorial)
+(Click the image to watch Portfolio Template | Introduction & Tutorial)
 
-[![Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/RlTcHFIg8gU/0.jpg)](https://www.youtube.com/watch?v=RlTcHFIg8gU "Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page")
--->
+[![Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/BU1JhI1Pfxo/0.jpg)](https://www.youtube.com/watch?v=BU1JhI1Pfxo "Simple HTML Portfolio Template | Introduction & Tutorial | Open Source HTML Page")
+
 
 ## Features
 
