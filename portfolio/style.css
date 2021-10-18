@@ -1,18 +1,3 @@
-a {
-    color: #48D;
-    text-decoration: none;
-}
-
-p a:hover {
-    color: #48D;
-    text-decoration: underline;
-}
-
-h3 a:hover {
-    color: #48D;
-    text-decoration: underline;
-}
-
 body {
     height: 100%;
     color: #252525;
@@ -22,6 +7,51 @@ body {
     display: block;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+}
+
+a {
+    color: #48D;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(36,36,38);
+    font-size: 1.125em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p a:hover {
+    color: #48D;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom:25px;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h4 a:hover {
+    color: #48D;
+    text-decoration: underline;
 }
 
 .rounded {
@@ -85,39 +115,9 @@ body {
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 3em;
-    margin-bottom: 0px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    line-height: 40px;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom:25px;
-    margin-top: 30px;
-}
-
-h3 {
-    font-size: 1.25em;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
 .light {
     font-size: 1em;
     text-align: center;
-}
-
-p {
-    color: rgb(36,36,38);
-    font-size: 1.125em;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .socialLink {
@@ -271,49 +271,6 @@ p {
     line-height: 40px;
 }
 
-@media screen and (max-width: 1200px) {
-    .card {
-        -ms-flex: 33.33333%; /* IE10 */
-        flex: 33.33333%;
-        max-width: 33.33333%;
-    }
-    
-    .item {
-        -ms-flex: 33.33333%; /* IE10 */
-        flex: 33.33333%;
-        max-width: 33.33333%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .card {
-        -ms-flex: 50%; /* IE10 */
-        flex: 50%;
-        max-width: 50%;
-    }
-    
-    .item {
-        -ms-flex: 50%; /* IE10 */
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .card {
-        -ms-flex: 100%; /* IE10 */
-        flex: 100%;
-        max-width: 100%;
-    }
-    
-    .item {
-        -ms-flex: 100%; /* IE10 */
-        flex: 100%;
-        max-width: 100%;
-        
-    }
-}
-
 .card img {
     color: white;
     text-align: center;
@@ -457,6 +414,49 @@ p {
 
 .leftVerticalLine {
     border-left: thin solid #555555;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        -ms-flex: 33.33333%; /* IE10 */
+        flex: 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+    .item {
+        -ms-flex: 33.33333%; /* IE10 */
+        flex: 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+    .item {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    .item {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+        
+    }
 }
 
 @media (prefers-color-scheme: dark) {
