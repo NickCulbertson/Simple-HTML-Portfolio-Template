@@ -1,12 +1,11 @@
 # Simple HTML Portfolio Template
 
-An Open Source HTML Template to create a Portfolio site for your work. 
+An Open Source HTML Template to create a Portfolio site for your work. Download the project, customize it however you like, and share your work with the world.
 
-Coming Soon!
+(Click the image to watch Portfolio Template | Introduction & Tutorial)
 
-<!-- (Click the image to watch Portfolio Template | Introduction & Tutorial)
+[![Simple Portfolio Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/BU1JhI1Pfxo/0.jpg)](https://www.youtube.com/watch?v=BU1JhI1Pfxo "Simple HTML Portfolio Template | Introduction & Tutorial | Open Source HTML Page")
 
-[![Now Page Template | Introduction & Tutorial | Open Source HTML Page](https://img.youtube.com/vi/RlTcHFIg8gU/0.jpg)](https://www.youtube.com/watch?v=RlTcHFIg8gU "Now Page Template | Introduction & Tutorial | Open Source HTML Page")
 
 ## Features
 
@@ -20,90 +19,155 @@ Coming Soon!
 
 • Fully Customizable & Open Source
 
+
 ## Demos
 
-My Now Page: [http://www.mobypixel.com/now](http://www.mobypixel.com/now)
+My Portfolio Page: [http://www.mobypixel.com](http://www.mobypixel.com)
 
-![My Now Page](https://github.com/NickCulbertson/VidTest/blob/master/now1.png)
+![My Portfolio Page](https://github.com/NickCulbertson/VidTest/blob/master/portfolio1.png)
 
-Now Page Template:
+Portfolio Template:
 
-![Now Page Template Light](https://github.com/NickCulbertson/VidTest/blob/master/now2.png)
+![Portfolio Template Light](https://github.com/NickCulbertson/VidTest/blob/master/portfolio2.png)
 
-Now Page Template (Dark Mode):
+Portfolio Template (Dark Mode):
 
-![Now Page Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/now3.png)
+![Portfolio Template Dark](https://github.com/NickCulbertson/VidTest/blob/master/portfolio3.png)
+
+Portfolio Card Grid:
+
+![Portfolio Card Grid](https://github.com/NickCulbertson/VidTest/blob/master/portfolio4.png)
+
+Portfolio Image Grid:
+
+![Portfolio Image Grid](https://github.com/NickCulbertson/VidTest/blob/master/portfolio5.png)
 
 ## Implementation
 
-1. Download the "now" folder. Here you will find now.html, now.css, and an image folder.
+1. Download the "portfolio" folder. Here you will find index.html, image-example.html, text-example.html, style.css, and an image and video folder.
 
-now.html - The page people will see when they visit `http://www.YOUR_WEBSITE_NAME.com/now`
+index.html - The page people will see when they visit `http://www.YOUR_WEBSITE_NAME.com`
 
-now.css - The styles for this page.
+image-example.html & text-example.html - Starting point for pages off of the index page.
 
-img - This is where all the Cover art for the page and social badges are stored.
+style.css - The styles for the site.
 
-2. Open the now.html in a code editor and update it with all your information.
+img - This is where all the art is stored.
 
-3. Adding your cover artwork by replacing the "cover.png" file in the img folder.
+2. Open the index.html in a code editor and update it with all your information.
 
-4. Add the entire files to your site's root directory. Now your page is available at
-`http://www.YOUR_WEBSITE_NAME.com/now`
+3. Add the files to your site's root directory. Now your page is available at
+`http://www.YOUR_WEBSITE_NAME.com`
 
-5. Share the link and do the happy dance!
+4. Share the link and do the happy dance!
 
 ## Optional Features
 
-By default, the cover image will be square. If you want a rectangular cover image, you can change height and width values of `.coverArt` and `.coverDiv` (height of container) in the `now.css` file:
+Add your projects to the card grid:
 ```
-now.css
+index.html
 
-.coverArt {
-    ...
-    max-height:  320px;
-    max-width:   320px;
-    ...
-}
+...
 
-.coverDiv {
-    height: 320px;
-}
+<!-- Portfolio Grid -->
+<div class="grid">
+                
+    <!-- Portfolio Item -->
+    <a href="image-example.html" class="card">
+        <div class="content">
+            <img src="img/card1.jpg" alt="Card Image"></img>
+            <div class="card-body">
+                <div class="subtitle">CATEGORY</div>
+                <div class="title">Card Title</div>
+                <div class="description">Short Description</div>
+            </div>
+        </div>
+    </a>
+                
+    <!-- Portfolio Item -->
+    <a href="image-example.html" class="card">
+        <div class="content">
+            <img src="img/card2.jpg" alt="Card Image"></img>
+            <div class="card-body">
+                <div class="subtitle">CATEGORY</div>
+                <div class="title">Card Title</div>
+                <div class="description">Short Description</div>
+            </div>
+        </div>
+    </a>
+</div>
 ```
 
-Delete this line to remove the image corner rounding:
+Add your images to a grid:
+```
+index.html
+
+...
+
+<!-- Image Grid -->
+<div class="grid">
+                
+    <!-- Image Item -->
+    <div class="item">
+        <div class="content">
+            <img  src="img/image1.jpg" alt="Image"></img>
+        </div>
+    </div>
+                
+    <!-- Image Item -->
+        <div class="item">
+            <div class="content">
+                <img  src="img/image2.jpg" alt="Image"></img>
+            </div>
+        </div>
+    </div>
+</div>
 
 ```
-now.css
 
-.coverArt {
-    ...
-    border-radius: 160px 160px 160px 160px;
-    ...
-}
+Add corner rounding:
+
+```
+index.html
+
+...
+
+<div class="rounded"></div>
+
+```
+
+Full-Size Image:
+
+```
+index.html
+
+...
+
+<!-- Full-Size Image -->
+<img class="img-full" src="img/logo.png" alt="Image"></img>
+
 ```
 
 Make multiple sections like this:
 
 ```
-now.html
+index.html
 
 ...
 
-<h2>Section 1 Title</h2>
+<h1>Section 1 Title</h1>
 <p>A brief description.</p>
     
 
-<h2>Section 2 Title</h2>
+<h1>Section 2 Title</h1>
 <p>A brief description.</p>
-...
 ```
 
-## About Simple HTML Portfolio Template
+## About This Project
 
-I was immediately drawn to the idea of creating a Now Page. At first, I just made another page off of my site but it was suffering from severe code bloat. So I made a stripped down version with only what was needed. I'm making this template Open Source because I want to empower creatives to support themselves. I hope it helps you to build a deeper connection with your followers! 
-
-If you have any questions, suggestions, or feedback please send them my way. This is as much for me as it is for you. If you use it, send me a link! I'd love to see what you're up to now. 
+Simple HTML Portfolio Template is an Open Source project to create an easy site for your work. No fluff or unnecessary code bloat. It's minimal and built to be easily customized and maintained. Watch the tutorial video for a quick explanation on what does what.
+            
+I'm making this template Open Source because I want to empower creatives to support themselves. I hope it helps make your first impression for your followers most triumphant! If you have any questions, suggestions, or feedback please send them my way. This is as much for me as it is for you. If you use it, send me a link! I'd love to see your work.
 
 Enjoy!
 
@@ -116,4 +180,4 @@ Nick Culbertson [@MobyPixel](https://twitter.com/MobyPixel)
 
 Share the project and/or drop some change in the tip jar. If I've saved you some time in development, please compensate my efforts so that I can keep making cool stuff. Donations are not required, but greatly appreciated! :D
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKHYVRMC53W7C) -->
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKHYVRMC53W7C)
