@@ -75,7 +75,7 @@ index.html
     <!-- Portfolio Item -->
     <a href="image-example.html" class="card">
         <div class="content">
-            <img src="img/card1.jpg" alt="Card Image"></img>
+            <img src="img/card1.jpg" height="335" width="335" alt="Card Image"></img>
             <div class="card-body">
                 <div class="subtitle">CATEGORY</div>
                 <div class="title">Card Title</div>
@@ -87,7 +87,7 @@ index.html
     <!-- Portfolio Item -->
     <a href="image-example.html" class="card">
         <div class="content">
-            <img src="img/card2.jpg" alt="Card Image"></img>
+            <img src="img/card2.jpg" height="335" width="335" alt="Card Image"></img>
             <div class="card-body">
                 <div class="subtitle">CATEGORY</div>
                 <div class="title">Card Title</div>
@@ -110,14 +110,14 @@ index.html
     <!-- Image Item -->
     <div class="item">
         <div class="content">
-            <img  src="img/image1.jpg" alt="Image"></img>
+            <img src="img/image1.jpg" height="390" width="594" alt="Image"></img>
         </div>
     </div>
                 
     <!-- Image Item -->
         <div class="item">
             <div class="content">
-                <img  src="img/image2.jpg" alt="Image"></img>
+                <img src="img/image2.jpg" height="390" width="594" alt="Image"></img>
             </div>
         </div>
     </div>
@@ -159,7 +159,7 @@ index.html
 <p>A brief description.</p>
     
 
-<h1>Section 2 Title</h1>
+<h2>Section 2 Title</h2>
 <p>A brief description.</p>
 ```
 
