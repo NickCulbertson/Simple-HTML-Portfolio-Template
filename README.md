@@ -144,7 +144,7 @@ index.html
 ...
 
 <!-- Full-Size Image -->
-<img class="img-full" src="img/logo.png" alt="Image"></img>
+<img class="img-full" src="img/logo.png" height="512" width="512" alt="Image"></img>
 
 ```
 
