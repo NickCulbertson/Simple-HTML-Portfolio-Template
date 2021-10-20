@@ -75,7 +75,7 @@ index.html
     <!-- Portfolio Item -->
     <a href="image-example.html" class="card">
         <div class="content">
-            <img src="img/card1.jpg" height="335" width="335" alt="Card Image"></img>
+            <img src="img/card1.jpg" height="390" width="390" alt="Card Image"></img>
             <div class="card-body">
                 <div class="subtitle">CATEGORY</div>
                 <div class="title">Card Title</div>
@@ -87,7 +87,7 @@ index.html
     <!-- Portfolio Item -->
     <a href="image-example.html" class="card">
         <div class="content">
-            <img src="img/card2.jpg" height="335" width="335" alt="Card Image"></img>
+            <img src="img/card2.jpg" height="390" width="390" alt="Card Image"></img>
             <div class="card-body">
                 <div class="subtitle">CATEGORY</div>
                 <div class="title">Card Title</div>
